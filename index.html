@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<!--Materialize.css-->
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!--Import materialize.css-->
+		<link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+
+		<!--Let browser know website is optimized for mobile-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 		<!--personal stylesheet; add bootstrap/materialize before-->
 		<link type="text/css" rel="stylesheet" href="assets/css/style.css" />
 
@@ -8,14 +17,22 @@
 	</head>
 
 	<body>
-		<div class="container">
-			<div class="question">
-				<h1>Name that Pokemon!</h1>
+		<div class="flex-container">
+			<div class="container">
+				<div class="question">
+					<h1>Name that Pokemon!</h1>
+				</div>
 			</div>
-			<div class="answers">
-				<p>Placeholder</p>
+			<div class="flex-container">
+				<div class="answers">
+					<p>Placeholder</p>
+				</div>
 			</div>
 		</div>
+
+		<!--Import jQuery before materialize.js-->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/materialize.min.js"></script>
 	</body>
 
 </html>
